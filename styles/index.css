@@ -40,6 +40,11 @@ main{
 main > section{
     margin-top: 130px;
 }
+.section-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+
+}
 
 /* header styles */
 .bg-light{
@@ -99,11 +104,6 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
-.feature-title{
-    font-weight: 700;
-    font-size: 2.8rem;
-
-}
 #quick-list{
     font-weight: 500;
 }
@@ -122,4 +122,13 @@ main > section{
         margin-left: 20px;
     }
 
+}
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin-left: 50px auto;
+    }
 }
